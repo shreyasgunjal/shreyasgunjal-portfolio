@@ -15,7 +15,7 @@ const Contact = () => {
     const sendEmail = (e) => {
     e.preventDefault();
     
-    emailjs.sendForm('service_wpw1f4t', 'template_8do7hui', form.current, 'bxMX-SPClSsljd2DE')
+    emailjs.sendForm('EmailJs_token', 'Your_template', form.current, 'Token_Your')
         .then((result) => {
             console.log(result.text);
             e.target.reset();
