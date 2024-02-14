@@ -1,0 +1,84 @@
+#about{
+    height: 100vh;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.abtIntro{
+    height: auto; 
+    width: 100vw;
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto; 
+     
+}
+
+.h1{
+    font-weight: 500;
+    
+}
+
+.h2{
+    color: yellow;
+    font-weight: 800;
+    font-family: cursive;  
+    margin-right: 15%;
+}
+
+.para0{
+    font-style: oblique;
+    position: absolute;
+    z-index: auto;
+    margin-top: 11rem;
+    margin-right: 10%;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.para1{
+    position: absolute;
+    z-index: auto;
+    margin-top: 23rem;
+    margin-right: 10%;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.para2{
+    
+    position: absolute;
+    z-index: auto;
+    margin-top: 40rem;
+    margin-right: 10%;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.h3{
+    position: absolute;
+    z-index: auto;
+    margin-top: 55rem;
+    margin-right: 10%;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.h3a{
+    background-color: lightgoldenrodyellow;
+    color:  yellowgreen;
+    border-radius: 2rem;
+    width: 40rem;
+    text-align: center;
+    height: 2rem;
+    font-weight: 600;
+}
+
+
+
