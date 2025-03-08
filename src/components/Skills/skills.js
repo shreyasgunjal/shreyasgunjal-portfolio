@@ -83,10 +83,12 @@ export const Skills = () => {
           <small>Jun 2024- Present</small>
             <ul>
               <h6>
-                <li>Participated in the design and implementation of software solutions, applying principles of modular programming,
-                code reusability, and best practices in software engineering.</li>
-                <li>Collaborated with team members to analyze requirements, design solutions, and implement features, fostering
-                effective communication and teamwork.</li>
+                <li>Designed and implemented 20+ RESTful APIs for core functionalities including product management, order
+                processing, and customer data handling.</li>
+                <li>Designed and developed a web application using ASP.NET MVC, adhering to best practices to enhance system
+                reliability and user experience.</li>
+                <li>Integrated secure authentication and robust error handling, ensuring application security and achieving 99% unit
+                test coverage with NUnit.</li>
                 </h6>
             </ul>
           <span className="right-container-arrow"></span>
