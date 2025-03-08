@@ -8,8 +8,8 @@ const About = () => {
       <div className='abtIntro'>
           <span className='h1'>Hi, I'm <span className='h2'>Shreyas Gunjal</span></span> 
           <p className='para0'>I am currently employed as a Software Engineer 
-          (Associate IT Consultant) at ITC Infotech. 
-          Prior to this role, I completed my engineering degree from SPPU University, where I developed a strong foundation in Engineering and Technical Skills. 
+          at Capgemini. Prior to this role, I was working for ITC InfoTech as Software Engineer(Associate IT Consultant) in Backend Development using Java-SpringBoot.
+          I completed my engineering degree from SPPU University, where I developed a strong foundation in Engineering and Technical Skills. 
           I am passionate about Web & Software Development , 
           and I am committed to continuous learning and growth in this dynamic field.
 
@@ -32,7 +32,14 @@ const About = () => {
           I'm excited to contribute to shaping the future of technology.
         </p>
         
-        <h3 className='h3'>Skills: <h3 className='h3a'>HTML, CSS, JavaScript, ReactJs, Java, SQL, Git</h3></h3>
+        <h3 className='h3'>Skills: 
+            <h3 className='h3a'>Languages: C, C#, CSS, HTML, Java, JavaScript</h3>
+            <h3 className='h3a'>Technologies & Frameworks: GitHub, Hibernate, JUnit5, Postman API, .NET, NUnit, React.js, Spring-Boot</h3>
+            <h3 className='h3a'>Tools: Anaconda, Eclipse, Git, Spyder, SSMS, Visual Studio, VS Code</h3>
+            <h3 className='h3a'>Concepts: Agile Methodology, Azure, Computer Network, Cloud Computing, Data Structures, DBMS, Deep Learning,
+            MySQL, OOPS</h3>
+            <h3 className='h3a'>Operating Systems: MS Windows 10, 11, Windows Server 2019, 2022 and Linux</h3>
+        </h3>
       </div>
       
       

@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="dekstopMenu">
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="dekstopMenuListItem">Home</Link>
             <Link activeClass='active' to='abtIntro' spy={true} smooth={true} offset={-50} duration={500} className="dekstopMenuListItem">About Me</Link>
-            <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="dekstopMenuListItem">Portfolio</Link>
+            <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="dekstopMenuListItem">Projects</Link>
             <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-65} duration={500} className="dekstopMenuListItem">Resume</Link>
             
             </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className="navMenu" style={{display :showMenu ? 'flex' : 'none'}}>
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
             <Link activeClass='active' to='abtIntro' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>About Me</Link>
-            <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Portfolio</Link>
+            <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
             <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Resume</Link>
             <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
             </div>

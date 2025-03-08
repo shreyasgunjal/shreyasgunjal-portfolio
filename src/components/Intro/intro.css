@@ -59,9 +59,11 @@
     height: 0.8rem;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:720px) {
+    /*740px*/
     .bg{
-        right: -80vw;
+        /*right: -80vw;*/
+        right: -30vw;
     }
 
     .introContent{
@@ -73,9 +75,11 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:540px) {
     .bg{
-        right: -50vw;
+        /*right: -50vw;*/
+        right: auto;
+        
     }
 
 }

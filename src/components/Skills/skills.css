@@ -96,7 +96,7 @@
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
     border-left: 15px solid white;
-    right: -15px;
+    right: -14px;
 }
 
 .right-container-arrow{
@@ -148,9 +148,13 @@
 .container:nth-child(5){
     animation-delay: 4s;
 }
+.container:nth-child(6){
+    animation-delay: 4s;
+}
 
 
-@media screen and (max-width: 600px ){
+
+@media screen and (max-width: 768px ){
     .timeline{
         margin: 50px auto;
     }
@@ -167,7 +171,7 @@
 
     .text-box{
         font-size: 13px;
-
+        max-width: 45%;
     }
 
     .text-box small{
@@ -176,6 +180,7 @@
 
     .right-container{
         left: 0;
+        
     }
 
     .left-container img, .right-container img{
@@ -187,4 +192,13 @@
         border-left: 0 ;
         left: -15px;
     }
+}
+
+
+@media screen and (max-width: 540px ){
+    .text-box{
+        font-size: 13px;
+        max-width: 25%;
+    }
+
 }

@@ -1,4 +1,4 @@
-#about{
+/* #about{
     height: 100vh;
     width: 100vw;
     max-width: 75rem;
@@ -17,12 +17,11 @@
     flex-direction: column;
     justify-content: center;
     overflow: auto; 
-     
+    max-width: 45rem;
 }
 
 .h1{
     font-weight: 500;
-    
 }
 
 .h2{
@@ -80,5 +79,70 @@
     font-weight: 600;
 }
 
+ */
 
 
+ #about {
+    height: auto;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.abtIntro {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; /* Center align content */
+}
+
+.h1 {
+    font-weight: 500;
+}
+
+.h2 {
+    color: yellow;
+    font-weight: 800;
+    font-family: cursive;
+    margin-right: 0;
+}
+
+.para0,
+.para1,
+.para2,
+.h3 {
+    margin-top: 1.5rem; /* Adjust spacing between paragraphs */
+    margin-right: 0;
+    
+}
+
+/* .h3a {
+    background-color: lightgoldenrodyellow;
+    color: yellowgreen;
+    border-radius: 2rem;
+    width: 80%; /* Adjust width for better responsiveness 
+    margin: 0 auto; /* Center horizontally 
+    text-align: center;
+    padding: 1rem 0;  Add padding for better visibility 
+    font-weight: 600;
+} */
+
+/* Media query for smaller devices */
+@media screen and (max-width: 768px) {
+    .abtIntro {
+        padding: 1rem; /* Reduce padding for smaller screens */
+    }
+    
+    .h2 {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+    
+    .h3a {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}

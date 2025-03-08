@@ -8,3 +8,9 @@
     font-weight: 300;
     font-size: small;
 }
+
+@media screen and (max-width: 768px){
+    .footer{
+        max-width: 100%;
+    }
+}

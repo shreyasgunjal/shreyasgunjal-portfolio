@@ -10,10 +10,10 @@ const Intro = () => {
       <div className="introContent">
           <span className="hello">Hello,</span>
           <span className="introText">I'm <span className="introName">Shreyas</span>< br />Software Developer </span>
-          <p className="introPara">I am a skilled web designer with experience in creating <br />visually appealing and user friendly websites.</p>
+          <p className="introPara">I am a skilled software developer with experience in creating <br />visually appealing and user friendly websites.</p>
 
             <button className="btn">
-              <a href="https://drive.google.com/file/d/1p_al2vW3SaSc5200eZlT98JRD8IZN0bu/view?usp=drive_link" target="_blank" rel="noopener noreferrer">  
+              <a href="https://drive.google.com/file/d/1I7KdXj8XGbr8NiQRlMT-zI-sgI2YA-lG/view?usp=sharing" target="_blank" rel="noopener noreferrer">  
                 <img src={btnImg} alt="Resume" className="btnImg"/>Resume
               </a>
                 
